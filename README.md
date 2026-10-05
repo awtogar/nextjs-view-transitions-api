@@ -1,6 +1,6 @@
 # Eksperimen View Transitions API di Next.js
 
-Repo ini tempat gue nyoba fitur View Transitions API di Next.js (masih eksperimental). Tujuannya bikin transisi antar halaman yang halus tanpa library berat kayak Framer Motion atau GSAP. Cukup pakai fitur bawaan browser dan CSS.
+Repo ini tempat nyoba fitur View Transitions API di Next.js (masih eksperimental). Tujuannya bikin transisi antar halaman yang halus tanpa library kayak Framer Motion atau GSAP cukup pakai CSS sama keyframe.
 
 ## Setup
 
