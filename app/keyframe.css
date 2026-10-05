@@ -1,0 +1,206 @@
+/* <!-- Type 1 — Fav --> */
+@keyframes page-out {
+  from {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-25%);
+    opacity: 0.25;
+  }
+}
+
+@keyframes page-in {
+  from {
+    transform: translateY(25%);
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  to {
+    transform: translateY(0%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+/* <!-- Type 2 — Favv --> */
+@keyframes page-out {
+  from {
+    transform: translateY(0%) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-25%) scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes page-in {
+  from {
+    transform: translateY(40%);
+    clip-path: polygon(35% 50%, 65% 50%, 65% 50%, 35% 50%);
+  }
+  to {
+    transform: translateY(0%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+/* <!-- Type 3 — Horizontal Slide -- >  */
+@keyframes page-out {
+  from {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-25%);
+    opacity: 0;
+  }
+}
+
+@keyframes page-in {
+  from {
+    transform: translateX(25%);
+    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%);
+  }
+  to {
+    transform: translateX(0%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+/* <!-- Type 4 — Diagonal Reveal -- >  */
+@keyframes page-out {
+  from {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-15%, -10%);
+    opacity: 0;
+  }
+}
+
+@keyframes page-in {
+  from {
+    transform: translate(15%, 15%);
+    clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
+  }
+  to {
+    transform: translate(0%, 0%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+/* <!-- Type 5 — Fav -- > */
+@keyframes page-out {
+  from {
+    transform: translateY(0%) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-15%) scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes page-in {
+  from {
+    transform: translateY(15%) scale(0.85);
+    clip-path: polygon(25% 25%, 75% 25%, 75% 75%, 25% 75%);
+  }
+  to {
+    transform: translateY(0%) scale(1);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+/* <!-- Type 6 — Center Reveal -- >  */
+@keyframes page-out {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+}
+
+@keyframes page-in {
+  from {
+    transform: scale(1.05);
+    clip-path: circle(0% at 50% 50%);
+  }
+  to {
+    transform: scale(1);
+    clip-path: circle(100% at 50% 50%);
+  }
+}
+
+/* <!-- Type 7 — Vertical Wipe --> */
+@keyframes page-out {
+  from {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+}
+
+@keyframes page-in {
+  from {
+    transform: translateY(0%);
+    clip-path: inset(100% 0% 0% 0%);
+  }
+  to {
+    transform: translateY(0%);
+    clip-path: inset(0% 0% 0% 0%);
+  }
+}
+
+/* <!-- Type 8 — Rotational Reveal --> */
+@keyframes page-out {
+  from {
+    transform: translateY(0%) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-15%) rotate(-3deg) scale(0.95);
+    opacity: 0;
+  }
+}
+
+@keyframes page-in {
+  from {
+    transform: translateY(20%) rotate(3deg) scale(0.95);
+    clip-path: polygon(20% 20%, 80% 20%, 80% 80%, 20% 80%);
+  }
+  to {
+    transform: translateY(0%) rotate(0deg) scale(1);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+/* <!-- Type 9 — Skew Editorial --> */
+@keyframes page-out {
+  from {
+    transform: translateY(0%) skewY(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-20%) skewY(-4deg);
+    opacity: 0;
+  }
+}
+
+@keyframes page-in {
+  from {
+    transform: translateY(25%) skewY(4deg);
+    clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+  }
+  to {
+    transform: translateY(0%) skewY(0deg);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
